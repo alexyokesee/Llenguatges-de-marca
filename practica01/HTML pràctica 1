@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pràctica 1</title>
+</head>
+<body>
+    <header>
+            <div class="header-logo">
+                <img src="img/logo.jpg" alt="30%">
+
+            </div>
+                <h1>Xarxes Socials</h1>
+                <div class="header-xarxes">
+                    <!--hyperkink-->
+                    <a href="https://es.linkedin.com/" target="_blank"><img src="img/linkedin_photo.png" alt="40%"></a>
+                    <!--Enllaç amb la imatge-->
+                    <a href="https://x.com/" target="_blank"><img src="img/x.png" alt="40%"></a>
+                    <!--Enllaç amb la imatge-->
+                </div>
+            </div>
+            <nav>
+                <a href="inici.html">Inici</a>
+                <a href="presentacio.html">Presentació</a>
+                <a href="practiques.html">Pràctiques</a>
+                <a href="cv.html">CV</a>
+                <a href="contacte.html">Contacte</a>
+            </nav>
+    </header>
+</body>
+</html>
