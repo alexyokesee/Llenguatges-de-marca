@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacte</title>
+  </head>
+  <body>
+    <header>
+      <!--Aquest és la capçalera-->
+      <div class="logo_capcalera">
+        <a href="#inici.html" target="_blank"><img src="/imatges/logo-nike.svg" alt="logo_empresa"></a>
+      </div>
+      <div class="menu_navegacio">
+        <!--Aquest és el menú de navegació-->
+        <nav>
+          <ul>
+            <li><a href="#inici.html"target="_self">Inici</a></li>
+            <li><a href="#qui-som.html"target="_self">Qui som</a></li>
+            <li><a href="#contacte.html"target="_self">Contacte</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <!--Aquesta és la secció de contacta'ns-->
+        <h1>Contacta'ns</h1>
+        <form action="contacte.php" method="post">
+            <br>
+            <label for="nom">Nom:</label><br>
+            <input type="text" id="nom" name="nom"><br>
+            <br>
+            <label for="cognom">Cognom:</label><br>
+            <input type="text" id="cognom" name="cognom">
+            <br>
+            <label for="telefon">Telèfon:</label><br>
+            <input type="text" id="telefon" name="telefon">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email">
+            <br>
+            <label for="missatge">Missatge:</label><br>
+            <input type="text" id="missatge" name="missatge">
+            <br>
+            <button type="submit">Enviar</button>
+            <br>
+            <button type="reset">Cancel·lar</button>
+            <br>
+          </form> 
+      </section>
+    </main>
+    <footer>
+        <nav>
+          <ul>
+            <li><a href="https://facebook.com" target="_blank"><img src="/imatges/icon-facebook.png" alt="logo_xarxes"></a></li>
+            <!--Enllaçem facebook amb el logo de la imatge de Facebook-->
+            <li><a href="https://youtube.com" target="_blank"><img src="/imatges/icon-youtube.png" alt="logo_xarxes"></a></li>
+            <!--Enllaçem facebook amb el logo de la imatge de Facebook-->
+            <a href="https://instagram.com" target="_blank"><img src="/imatges/icon-instagram.png" alt="logo_xarxes"></a>
+            <!--Enllaçem facebook amb el logo de la imatge de Facebook-->
+         </ul>
+       </nav>
+      <a href="#inici.html" target="_blank"><img src="/imatges/logo-nike.svg" alt="logo_empresa"></a>
+      <p>© 2024 Empresa. Tots els drets reservats.</p>
+    </footer>
+  </body>
+</html>
