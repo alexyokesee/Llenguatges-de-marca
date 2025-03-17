@@ -1,0 +1,282 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: var(--grayish-blue);
+  background-color: var(--light-cyan);
+  
+}
+
+h1 {
+  font-size: 48px;
+
+}
+
+h2 {
+  font-size: 30px;
+
+}
+
+/* Estilos generales para el header */
+header {
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centrado del texto en general */
+  background-color: hsl(193, 100%, 96%); /* Color de fondo */
+  background-image: url('../img/bg-hero-desktop.svg');
+  font-size: 18px; /* Tamaño de la fuente */
+  width: 1440px;
+  margin: 0% auto;
+}
+
+/* Contenedor principal del contenido del header */
+.header-bottom {
+  background-color: hsl(193, 100%, 96%); /* Color de fondo */
+  background-image: url('../img/bg-hero-desktop.svg');
+  display: flex; /* Activa Flexbox para organizar elementos en línea */
+  justify-content: space-between; /* Distribuye el espacio entre elementos */
+  align-items: center; /* Alinea elementos verticalmente */
+  padding: 20px; /* Espaciado interno */
+  margin: 0 auto; /* Centra el contenido en la página */
+  gap: 20px; /* Espaciado entre los elementos hijos */
+  height: auto;
+
+}
+
+/* Sección de introducción (texto a la izquierda) */
+.header-intro {
+  flex: 1; /* Ocupa un espacio proporcional al disponible */
+  padding: 20px; /* Espaciado interno */
+  text-align: left; /* Alinea el texto a la izquierda */
+
+}
+
+button {
+  background-color:hsl(322, 100%, 66%);
+  border-radius: 25px;
+  width: 250px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+ /* float: right; */
+
+}
+
+.button-top {
+  width: 200px; 
+  background-color: hsl(0, 0%, 98%); 
+  font-size: 16px;
+  float: right; 
+}
+
+.button-intro {
+  color:white;
+
+}
+
+.header-content {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.header-content h1 {
+color: hsl(210, 10%, 20%);
+margin-bottom: 20px;
+}
+
+.header-content p {
+font-size: 18px;
+color: hsl(210, 10%, 40%);
+margin-bottom: 30px;
+}
+/* Sección de imagen (a la derecha) */
+.header-photo {
+  flex: 1; /* Ocupa un espacio proporcional al disponible */
+  text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.header-photo img {
+  max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  display: block; /* Elimina espacios blancos alrededor de imágenes inline */
+}
+
+/* Contenedor superior del header */
+.header-top {
+  display: flex; /* Activa Flexbox */
+  justify-content: space-between; /* Espaciado entre elementos en el header-top */
+  align-items: center; /* Alinea los elementos verticalmente */
+  padding: 15px; /* Espaciado interno */
+}
+
+main {
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+.content {
+width: 1400px;
+margin: 0 auto;
+}
+
+.intro {
+float: left;
+margin-left: 30px; /*Apliquem separació entre el requadre i el contingut.*/
+margin-top: 4%; /*Espai entre el contingut i el requadre de dalt.*/
+max-width: 40%; /* Limita l'amplada del paràgraf */
+clear: both;
+}
+
+.photo {
+float: right;
+position: relative; /* Permet ajustar la posició amb top */
+clear: both;
+}
+
+.photo img {
+width: 370px;
+height: auto;
+margin-top: -250px; /* Puja la imatge perquè s'alineï amb el text */
+clear: both;
+}
+
+.box h2 {
+font-size: 30px;
+
+}
+
+.box p {
+font-size: 18px;
+line-height: 1.6; 
+color: hsl(210, 10%, 40%);
+clear: both;
+}
+
+.box {
+  float: none;
+  clear: both;
+  border: none; /* Borde ligero para énfasis */
+  padding: 60px; /* Espaciado interno */
+  height: auto; /* Altura dinámica */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px -4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en ambas direcciones */
+  overflow: hidden;
+}
+
+.box-flip {
+float: none;
+clear: both;
+border: none; /* Borde ligero para énfasis */
+padding: 60px; /* Espaciado interno */
+height: auto; /* Altura dinámica */
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 0px -4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave en ambas direcciones */
+overflow: hidden;
+}
+
+.box:after {
+clear: both;
+}
+
+.box-flip .intro {
+float: right;
+margin-right: 30px; /*Apliquem separació entre el requadre i el contingut.*/
+margin-top: 4%; /*Espai entre el contingut i el requadre de dalt.*/
+max-width: 56%; /* Limita l'amplada del paràgraf */
+clear: both;
+}
+
+.box-flip .photo {
+float: left;
+
+}
+
+.box-flip h2 {
+  font-size: 30px;
+  margin-bottom: auto;
+  
+}
+
+.box-flip p {
+  font-size: 18px;
+  line-height: 1.6; 
+  color: hsl(210, 10%, 40%);
+  margin-right: 30%; /*Centrem el pàrraf cap a l'esquerra.*/
+  clear: both;
+  
+}
+
+.footer {
+  background-color: #00252e;
+  color: white;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+  list-style-type: none; 
+}
+/*Aquí ajusto la mida de com hauria de quedar el logo, ubicació, telèfon i email*/
+.footer-logo {
+  float: left;
+  width: 30%; 
+}
+/*En aquesta part, ajustem la imatge del Huddle*/
+.footer-logo img {
+  display: block;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  font-size: 14px;
+}
+/* Aquest seria el menú d'about us, what we do i FAQ*/
+.footer-menu-1 {
+  list-style-type: none; 
+  float: left;
+  width: 30%; 
+  padding: 2%;
+  
+}
+/*En aquesta part, apliquem que els puntets no surtin*/
+.footer-menu-1 li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+/*A continuació, aquí, posem que no tingui decoració del text, ja que si no es veuria una linia i de color blau*/
+.footer-menu-1 a {
+  color:white;
+  text-decoration: none;
+  font-size: 14px;
+}
+/*Aquest seria com el menú 1 amb la diferència de que és el menú 2, inlcouem parts com career, blog i contact us*/
+.footer-menu-2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  list-style: none;
+}
+/*Apliquem que la dispocició del text es trobi a la dreta, */
+.footer-menu-2 {
+  float: right;
+  width: 20%; 
+}
+
+/*En aquest punt, apliquem que els puntets els eliminem i per a que no es faci un bucle, afegim un clear:both*/
+.footer-menu-2 ul {
+  list-style: none;
+  clear: both;
+}
+/*Aquí, apliquem que la grandària de la lletra sigui de 14px*/
+.footer-menu-2 a {
+  font-size: 14px;
+}
+/*Apliquem estil a les imatges de les xarxes socials*/
+.footer-social {
+  display: inline-block;
+  list-style-type: none; 
+  height: 24px;
+
+}
