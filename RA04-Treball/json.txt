@@ -1,0 +1,721 @@
+{
+	"root": {
+		"origen": {
+			"productor": "Agencia Estatal de Meteorolog�a - AEMET. Gobierno de Espa�a",
+			"web": "https://www.aemet.es",
+			"enlace": "https://www.aemet.es/es/eltiempo/prediccion/municipios/santa-perpetua-de-mogoda-id08260",
+			"language": "es",
+			"copyright": "� AEMET. Autorizado el uso de la informaci�n y su reproducci�n citando a AEMET como autora de la misma.",
+			"nota_legal": "https://www.aemet.es/es/nota_legal"
+		},
+		"elaborado": "2025-05-09T15:13:06",
+		"nombre": "Santa Perp�tua de Mogoda",
+		"provincia": "Barcelona",
+		"prediccion": {
+			"dia": [
+				{
+					"prob_precipitacion": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24",
+							"__text": "100"
+						},
+						{
+							"_periodo": "00-06"
+						},
+						{
+							"_periodo": "06-12",
+							"__text": "100"
+						},
+						{
+							"_periodo": "12-18",
+							"__text": "100"
+						},
+						{
+							"_periodo": "18-24",
+							"__text": "0"
+						}
+					],
+					"cota_nieve_prov": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24"
+						},
+						{
+							"_periodo": "00-06"
+						},
+						{
+							"_periodo": "06-12",
+							"__text": "2100"
+						},
+						{
+							"_periodo": "12-18",
+							"__text": "2200"
+						},
+						{
+							"_periodo": "18-24"
+						}
+					],
+					"estado_cielo": [
+						{
+							"_periodo": "00-24",
+							"_descripcion": ""
+						},
+						{
+							"_periodo": "00-12",
+							"_descripcion": ""
+						},
+						{
+							"_periodo": "12-24",
+							"_descripcion": "Nuboso con lluvia",
+							"__text": "24"
+						},
+						{
+							"_periodo": "00-06",
+							"_descripcion": ""
+						},
+						{
+							"_periodo": "06-12",
+							"_descripcion": "Muy nuboso con tormenta",
+							"__text": "53"
+						},
+						{
+							"_periodo": "12-18",
+							"_descripcion": "Nuboso con lluvia",
+							"__text": "24"
+						},
+						{
+							"_periodo": "18-24",
+							"_descripcion": "Poco nuboso",
+							"__text": "12"
+						}
+					],
+					"viento": [
+						{
+							"direccion": "",
+							"velocidad": "",
+							"_periodo": "00-24"
+						},
+						{
+							"direccion": "",
+							"velocidad": "",
+							"_periodo": "00-12"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "10",
+							"_periodo": "12-24"
+						},
+						{
+							"direccion": "NE",
+							"velocidad": "5",
+							"_periodo": "00-06"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "10",
+							"_periodo": "06-12"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "10",
+							"_periodo": "12-18"
+						},
+						{
+							"direccion": "NE",
+							"velocidad": "10",
+							"_periodo": "18-24"
+						}
+					],
+					"racha_max": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24"
+						},
+						{
+							"_periodo": "00-06"
+						},
+						{
+							"_periodo": "06-12"
+						},
+						{
+							"_periodo": "12-18"
+						},
+						{
+							"_periodo": "18-24"
+						}
+					],
+					"temperatura": {
+						"maxima": "19",
+						"minima": "12",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "13"
+							},
+							{
+								"_hora": "12",
+								"__text": "18"
+							},
+							{
+								"_hora": "18",
+								"__text": "16"
+							},
+							{
+								"_hora": "24",
+								"__text": "14"
+							}
+						]
+					},
+					"sens_termica": {
+						"maxima": "19",
+						"minima": "12",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "13"
+							},
+							{
+								"_hora": "12",
+								"__text": "18"
+							},
+							{
+								"_hora": "18",
+								"__text": "16"
+							},
+							{
+								"_hora": "24",
+								"__text": "14"
+							}
+						]
+					},
+					"humedad_relativa": {
+						"maxima": "95",
+						"minima": "75",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "90"
+							},
+							{
+								"_hora": "12",
+								"__text": "75"
+							},
+							{
+								"_hora": "18",
+								"__text": "80"
+							},
+							{
+								"_hora": "24",
+								"__text": "95"
+							}
+						]
+					},
+					"uv_max": "7",
+					"_fecha": "2025-05-09"
+				},
+				{
+					"prob_precipitacion": [
+						{
+							"_periodo": "00-24",
+							"__text": "100"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "80"
+						},
+						{
+							"_periodo": "12-24",
+							"__text": "100"
+						},
+						{
+							"_periodo": "00-06",
+							"__text": "5"
+						},
+						{
+							"_periodo": "06-12",
+							"__text": "75"
+						},
+						{
+							"_periodo": "12-18",
+							"__text": "95"
+						},
+						{
+							"_periodo": "18-24",
+							"__text": "90"
+						}
+					],
+					"cota_nieve_prov": [
+						{
+							"_periodo": "00-24",
+							"__text": "2300"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "2300"
+						},
+						{
+							"_periodo": "12-24",
+							"__text": "2400"
+						},
+						{
+							"_periodo": "00-06"
+						},
+						{
+							"_periodo": "06-12",
+							"__text": "2300"
+						},
+						{
+							"_periodo": "12-18",
+							"__text": "2300"
+						},
+						{
+							"_periodo": "18-24",
+							"__text": "2400"
+						}
+					],
+					"estado_cielo": [
+						{
+							"_periodo": "00-24",
+							"_descripcion": "Muy nuboso con lluvia",
+							"__text": "25"
+						},
+						{
+							"_periodo": "00-12",
+							"_descripcion": "Cubierto con lluvia",
+							"__text": "26"
+						},
+						{
+							"_periodo": "12-24",
+							"_descripcion": "Muy nuboso con tormenta",
+							"__text": "53"
+						},
+						{
+							"_periodo": "00-06",
+							"_descripcion": "Muy nuboso",
+							"__text": "15n"
+						},
+						{
+							"_periodo": "06-12",
+							"_descripcion": "Cubierto con lluvia escasa",
+							"__text": "46"
+						},
+						{
+							"_periodo": "12-18",
+							"_descripcion": "Muy nuboso con lluvia",
+							"__text": "25"
+						},
+						{
+							"_periodo": "18-24",
+							"_descripcion": "Muy nuboso con tormenta",
+							"__text": "53"
+						}
+					],
+					"viento": [
+						{
+							"direccion": "SE",
+							"velocidad": "15",
+							"_periodo": "00-24"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "15",
+							"_periodo": "00-12"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "15",
+							"_periodo": "12-24"
+						},
+						{
+							"direccion": "NE",
+							"velocidad": "5",
+							"_periodo": "00-06"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "15",
+							"_periodo": "06-12"
+						},
+						{
+							"direccion": "SE",
+							"velocidad": "10",
+							"_periodo": "12-18"
+						},
+						{
+							"direccion": "E",
+							"velocidad": "10",
+							"_periodo": "18-24"
+						}
+					],
+					"racha_max": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24"
+						},
+						{
+							"_periodo": "00-06"
+						},
+						{
+							"_periodo": "06-12"
+						},
+						{
+							"_periodo": "12-18"
+						},
+						{
+							"_periodo": "18-24"
+						}
+					],
+					"temperatura": {
+						"maxima": "22",
+						"minima": "13",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "14"
+							},
+							{
+								"_hora": "12",
+								"__text": "21"
+							},
+							{
+								"_hora": "18",
+								"__text": "18"
+							},
+							{
+								"_hora": "24",
+								"__text": "16"
+							}
+						]
+					},
+					"sens_termica": {
+						"maxima": "22",
+						"minima": "13",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "14"
+							},
+							{
+								"_hora": "12",
+								"__text": "21"
+							},
+							{
+								"_hora": "18",
+								"__text": "18"
+							},
+							{
+								"_hora": "24",
+								"__text": "16"
+							}
+						]
+					},
+					"humedad_relativa": {
+						"maxima": "95",
+						"minima": "65",
+						"dato": [
+							{
+								"_hora": "06",
+								"__text": "90"
+							},
+							{
+								"_hora": "12",
+								"__text": "65"
+							},
+							{
+								"_hora": "18",
+								"__text": "80"
+							},
+							{
+								"_hora": "24",
+								"__text": "90"
+							}
+						]
+					},
+					"uv_max": "7",
+					"_fecha": "2025-05-10"
+				},
+				{
+					"prob_precipitacion": [
+						{
+							"_periodo": "00-24",
+							"__text": "100"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "100"
+						},
+						{
+							"_periodo": "12-24",
+							"__text": "80"
+						}
+					],
+					"cota_nieve_prov": [
+						{
+							"_periodo": "00-24",
+							"__text": "2200"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "2300"
+						},
+						{
+							"_periodo": "12-24"
+						}
+					],
+					"estado_cielo": [
+						{
+							"_periodo": "00-24",
+							"_descripcion": "Nuboso con lluvia",
+							"__text": "24"
+						},
+						{
+							"_periodo": "00-12",
+							"_descripcion": "Muy nuboso con tormenta",
+							"__text": "53"
+						},
+						{
+							"_periodo": "12-24",
+							"_descripcion": "Intervalos nubosos con tormenta",
+							"__text": "51"
+						}
+					],
+					"viento": [
+						{
+							"direccion": "S",
+							"velocidad": "10",
+							"_periodo": "00-24"
+						},
+						{
+							"direccion": "E",
+							"velocidad": "10",
+							"_periodo": "00-12"
+						},
+						{
+							"direccion": "SO",
+							"velocidad": "10",
+							"_periodo": "12-24"
+						}
+					],
+					"racha_max": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24"
+						}
+					],
+					"temperatura": {
+						"maxima": "24",
+						"minima": "13"
+					},
+					"sens_termica": {
+						"maxima": "24",
+						"minima": "13"
+					},
+					"humedad_relativa": {
+						"maxima": "95",
+						"minima": "55"
+					},
+					"uv_max": "7",
+					"_fecha": "2025-05-11"
+				},
+				{
+					"prob_precipitacion": [
+						{
+							"_periodo": "00-24",
+							"__text": "85"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "50"
+						},
+						{
+							"_periodo": "12-24",
+							"__text": "65"
+						}
+					],
+					"cota_nieve_prov": [
+						{
+							"_periodo": "00-24",
+							"__text": "2000"
+						},
+						{
+							"_periodo": "00-12",
+							"__text": "1900"
+						},
+						{
+							"_periodo": "12-24"
+						}
+					],
+					"estado_cielo": [
+						{
+							"_periodo": "00-24",
+							"_descripcion": "Intervalos nubosos con lluvia escasa",
+							"__text": "43"
+						},
+						{
+							"_periodo": "00-12",
+							"_descripcion": "Intervalos nubosos con lluvia escasa",
+							"__text": "43"
+						},
+						{
+							"_periodo": "12-24",
+							"_descripcion": "Intervalos nubosos con lluvia escasa",
+							"__text": "43"
+						}
+					],
+					"viento": [
+						{
+							"direccion": "S",
+							"velocidad": "10",
+							"_periodo": "00-24"
+						},
+						{
+							"direccion": "S",
+							"velocidad": "10",
+							"_periodo": "00-12"
+						},
+						{
+							"direccion": "S",
+							"velocidad": "10",
+							"_periodo": "12-24"
+						}
+					],
+					"racha_max": [
+						{
+							"_periodo": "00-24"
+						},
+						{
+							"_periodo": "00-12"
+						},
+						{
+							"_periodo": "12-24"
+						}
+					],
+					"temperatura": {
+						"maxima": "21",
+						"minima": "11"
+					},
+					"sens_termica": {
+						"maxima": "21",
+						"minima": "11"
+					},
+					"humedad_relativa": {
+						"maxima": "90",
+						"minima": "60"
+					},
+					"uv_max": "7",
+					"_fecha": "2025-05-12"
+				},
+				{
+					"prob_precipitacion": "75",
+					"cota_nieve_prov": "2100",
+					"estado_cielo": {
+						"_descripcion": "Intervalos nubosos con lluvia escasa",
+						"__text": "43"
+					},
+					"viento": {
+						"direccion": "S",
+						"velocidad": "5"
+					},
+					"racha_max": "",
+					"temperatura": {
+						"maxima": "22",
+						"minima": "10"
+					},
+					"sens_termica": {
+						"maxima": "22",
+						"minima": "10"
+					},
+					"humedad_relativa": {
+						"maxima": "90",
+						"minima": "60"
+					},
+					"uv_max": "7",
+					"_fecha": "2025-05-13"
+				},
+				{
+					"prob_precipitacion": "90",
+					"cota_nieve_prov": "2100",
+					"estado_cielo": {
+						"_descripcion": "Intervalos nubosos con lluvia",
+						"__text": "23"
+					},
+					"viento": {
+						"direccion": "E",
+						"velocidad": "10"
+					},
+					"racha_max": "",
+					"temperatura": {
+						"maxima": "22",
+						"minima": "12"
+					},
+					"sens_termica": {
+						"maxima": "22",
+						"minima": "12"
+					},
+					"humedad_relativa": {
+						"maxima": "90",
+						"minima": "60"
+					},
+					"_fecha": "2025-05-14"
+				},
+				{
+					"prob_precipitacion": "85",
+					"cota_nieve_prov": "2200",
+					"estado_cielo": {
+						"_descripcion": "Intervalos nubosos con lluvia",
+						"__text": "23"
+					},
+					"viento": {
+						"direccion": "SO",
+						"velocidad": "5"
+					},
+					"racha_max": "",
+					"temperatura": {
+						"maxima": "24",
+						"minima": "11"
+					},
+					"sens_termica": {
+						"maxima": "24",
+						"minima": "11"
+					},
+					"humedad_relativa": {
+						"maxima": "90",
+						"minima": "50"
+					},
+					"_fecha": "2025-05-15"
+				}
+			]
+		},
+		"_xmlns:xsd": "https://www.w3.org/2001/XMLSchema",
+		"_xmlns:xsi": "https://www.w3.org/2001/XMLSchema-instance",
+		"_id": "08260",
+		"_version": "1.0",
+		"_xsi:noNamespaceSchemaLocation": "https://www.aemet.es/xsd/localidades.xsd"
+	}
+}
